@@ -1,0 +1,39 @@
+{
+  "name": "vcs",
+  "description": "Version Control System",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
+  "bin": {
+    "javascript": "./dist/bundle.js"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "node esbuild.config.js",
+    "start": "npm run build && node .",
+    "dev": "nodemon index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "npm",
+    "vcs",
+    "javascript",
+    "commonjs",
+    "frames"
+  ],
+  "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.vercel.app/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pr4j3sh/javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pr4j3sh/javascript/issues"
+  },
+  "homepage": "https://github.com/pr4j3sh/javascript#readme",
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "nodemon": "^3.1.7"
+  }
+}
