@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "main": "dist/bundle.js",
   "bin": {
-    "javascript": "./dist/bundle.js"
+    "vcs": "./dist/bundle.js"
   },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "build": "node esbuild.config.js",
-    "start": "npm run build && node .",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "files": [

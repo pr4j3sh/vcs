@@ -2,7 +2,29 @@
 
 This package is based on version control systems.
 
-> Under Development
+## Usage
+
+- help
+
+```bash
+npm start help
+```
+
+- init
+
+```bash
+npm start init
+```
+
+> creates `.vcs` and `.vcs/obj/`
+
+- add
+
+```bash
+npm start add path/to/file
+```
+
+> creates a hash and compressed file and maps it in `.vcs/index`
 
 ## Reference
 
